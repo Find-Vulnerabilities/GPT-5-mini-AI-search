@@ -1,4 +1,4 @@
-# GPT-5 Mini with Web Search
+# GPT-5 Mini AI with Web Search
 
 A complete implementation that adds web search capabilities to GPT-5 mini using free APIs. This project enables real-time information retrieval and combines it with GPT-5 mini's language capabilities.
 
@@ -26,4 +26,5 @@ A complete implementation that adds web search capabilities to GPT-5 mini using 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/gpt5-mini-search.git
+
    cd gpt5-mini-search
