@@ -1,0 +1,26 @@
+{
+  "name": "gpt5-mini-search",
+  "version": "1.0.0",
+  "description": "GPT-5 mini with web search capabilities using free APIs",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/test.js",
+    "diagnose": "node src/diagnose.js"
+  },
+  "keywords": ["gpt5", "ai", "web-search", "openai", "free"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0",
+    "limiter": "^2.1.0",
+    "winston": "^3.17.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
